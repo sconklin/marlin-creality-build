@@ -740,7 +740,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 409 } // extruder was 95 before hemera changes
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 391.89 } // extruder was 95 before hemera changes
 
 /**
  * Default Max Feed Rate (mm/s)
