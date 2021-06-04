@@ -547,10 +547,14 @@
 
   //120v 500W silicone heater W/SSR (Bob's Bedheater)
   //from pidautotune      
-  #define DEFAULT_bedKp 44.39
-  #define DEFAULT_bedKi 7.88
-  #define DEFAULT_bedKd 62.54
+  //#define DEFAULT_bedKp 44.39
+  //#define DEFAULT_bedKi 7.88
+  //#define DEFAULT_bedKd 62.54
 
+  // Keenovo heater
+  #define DEFAULT_bedKp 56.96
+  #define DEFAULT_bedKi 10.23
+  #define DEFAULT_bedKd 211.52
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
 
